@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>AdminLogin</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.sevrlet.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserLogin</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.sevrlet.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OrderUpdateAndDelete</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.sevrlet.OrderUpdateAndDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserRegister</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.sevrlet.UserRegister</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>AdminBookUpdate</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.sevrlet.AdminBookUpdate</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>AdminBookAdd</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.sevrlet.AdminBookAdd</servlet-class>
+  </servlet>
+<servlet>
+    <servlet-name>UserUpdate</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.sevrlet.UserUpdate</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminUpdatePass</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.sevrlet.AdminUpdatePass</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SearchBook</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.sevrlet.SearchBook</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserGoumai</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.sevrlet.UserGoumai</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>Manager_OrderChange</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.sevrlet.Manager_OrderChange</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>Manager_Bookdo</servlet-name>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <description>This is the description of my J2EE component</description>
+    <servlet-class>com.sevrlet.Manager_Bookdo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegister</servlet-name>
+    <url-pattern>/UserRegister</url-pattern>
+  </servlet-mapping>
+ <servlet-mapping>
+    <servlet-name>AdminBookUpdate</servlet-name>
+    <url-pattern>/AdminBookUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminBookAdd</servlet-name>
+    <url-pattern>/AdminBookAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderUpdateAndDelete</servlet-name>
+    <url-pattern>/OrderUpdateAndDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserUpdate</servlet-name>
+    <url-pattern>/UserUpdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminUpdatePass</servlet-name>
+    <url-pattern>/AdminUpdatePass</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchBook</servlet-name>
+    <url-pattern>/SearchBook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserGoumai</servlet-name>
+    <url-pattern>/UserGoumai</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>Manager_OrderChange</servlet-name>
+    <url-pattern>/Manager_OrderChange</url-pattern>
+  </servlet-mapping>
+    <servlet-mapping>
+    <servlet-name>Manager_Bookdo</servlet-name>
+    <url-pattern>/Manager_Bookdo</url-pattern>
+  </servlet-mapping>
+
+ 
+</web-app>
