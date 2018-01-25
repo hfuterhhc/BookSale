@@ -1,4 +1,3 @@
-#数据库课设
 开发平台MyEclipse2017与Sql server 2008
 
 后端JSP+JavaBeen+Servlet的开发模式，前端semantic-ui 
